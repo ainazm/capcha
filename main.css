@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:cursive ;
+  }
+div.wrapper{
+    height: 100vh;
+    background-image: url(./alaedin.jpg);
+    background-size: cover;
+  
+
+}
+div.wrapper>div.box{
+    width: 350px;
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(10px) ;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    top: calc(50% - 200px);
+    left:145px
+}
+div.wrapper>div.box>button.click{
+    all: unset;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: whitesmoke;
+    position: absolute;
+    top: 30px;
+    left: 30px
+}
+div.wrapper>div.box>div.captcha{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(234, 147, 242);
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+div.wrapper>div.box>input{
+    all: unset;
+    width: 160px;
+    height: 70px;
+    background-color: rgb(255, 127, 217);
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+div.wrapper>div.box>button.captBtn{
+    all: unset;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(185, 146, 222);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 60px;
+    left: 140px;
+}
